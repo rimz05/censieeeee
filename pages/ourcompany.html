@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #052F44;
+    }
+
+    .navbar a {
+      color: white !important;
+    }
+
+    .header {
+      background: url('../public/aboutbg.png') no-repeat center center/cover; /* Replace with your image path */
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .btn-reach-us {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+    }
+
+    .btn-reach-us:hover {
+      background-color: #218838;
+    }
+
+    .accordion-button {
+      background-color: #F1F1F1;
+      color: #004080;
+    }
+
+    .accordion-button:hover,
+    .accordion-button:not(.collapsed) {
+      background-color: #004080;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../public/logo.png" alt="Logo" style="height: 40px;" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ourcompany.html">Our Companies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".whatwedo.html">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-reach-us" href="#">Reach Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <h1>Company</h1>
+    </div>
+  </header>
+
+  <!-- invester -->
+  <style>
+    .testimonial-card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        background-color: white;
+        transition: transform 0.3s;
+    }
+
+    .testimonial-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .testimonial-quote {
+        font-size: 24px;
+        color: #ccc;
+    }
+
+    .testimonial-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .testimonial-company {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
+
+
+<div class="container py-5">
+    <h2 class="text-center mb-5">What Investors Say</h2>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="testimonial-card text-center">
+                <p>Censie Capital's highly structured process and strategic advisory make them an impressive partner for startups. Their commitment to understanding startup needs and aligning them with the right opportunities is truly commendable.</p>
+                <div class="testimonial-footer d-flex flex-column align-items-center">
+                    <img src="placeholder1.jpg" alt="LC Nueva Capital" class="testimonial-img">
+                    <p class="testimonial-company">LC Nueva Capital</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="testimonial-card text-center">
+                <p>Even in the most challenging times, this investment banking firm stands out for founders. With their unwavering "founders-first" approach, they provide unparalleled support and guidance to startups.</p>
+                <div class="testimonial-footer d-flex flex-column align-items-center">
+                    <img src="placeholder2.jpg" alt="Spiral Ventures" class="testimonial-img">
+                    <p class="testimonial-company">Spiral Ventures</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="testimonial-card text-center">
+                <p>Censie Capital's rigorous selection process helps them choose high-quality startups. Their strategic insights have proven invaluable as they have gone on to raise subsequent rounds of capital.</p>
+                <div class="testimonial-footer d-flex flex-column align-items-center">
+                    <img src="placeholder3.jpg" alt="9Unicorns" class="testimonial-img">
+                    <p class="testimonial-company">9Unicorns</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  
+   <!-- Email and Scroll-to-Top -->
+   <div class="d-flex text-center justify-content-center mt-4 bg-light">
+    <p class="mb-0">Write us at <a href="mailto:firstname@censiei.in" class="text-primary">firstname@censiei.in</a></p>
+  </div>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start ">
+  <div class="container py-4">
+    <div class="row align-items-center">
+      <!-- Footer Logo -->
+      <div class="col-md-4 text-md-start mb-3 mb-md-0">
+        <img src="../public/Censie Logo.png"/>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-4 mb-3 mb-md-0">
+        <nav class="nav justify-content-center">
+          <a class="nav-link px-2 text-dark" href="#">Home</a>
+          <a class="nav-link px-2 text-dark" href="#">About Us</a>
+          <a class="nav-link px-2 text-dark" href="#">Our Companies</a>
+          <a class="nav-link px-2 text-dark" href="#">What We Do</a>
+        </nav>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="col-md-4 text-md-end">
+        <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-dark me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
